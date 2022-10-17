@@ -17,6 +17,13 @@ def getPrimeNumbers(numberList):
             primeNrList.append(i)
     return primeNrList
 
+# def getPrimeNumbers(numberList):
+#     f = []
+#     primeNrList = filter(isPrime, numberList)
+#     for i in primeNrList:
+#         f.append(i)
+#     return f
+
 
 if __name__ == '__main__':
     print(getPrimeNumbers([3, 45, 1, 0, 6, 7, 13, 12]))
