@@ -21,7 +21,7 @@ def fileordirectory(target, to_search):
                     openfile = f1.read()
                     if openfile.count(to_search) > 0:
                         listoffiles.append(file)
-            f.close()
+            f1.close()
             return listoffiles
         else:
             raise ValueError("Stringul dat nu contine o cale nici de fisier nici de director")
